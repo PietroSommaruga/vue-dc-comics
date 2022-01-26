@@ -1,0 +1,19 @@
+.green{
+    height: 100px;
+    background: green;
+}
+
+.teal{
+    background: teal;
+}
+
+.text-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lorem{
+    border: 1px solid #fff;
+    padding: 10px;
+}
