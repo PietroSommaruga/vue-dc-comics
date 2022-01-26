@@ -9,5 +9,5 @@ export default {
 </script>
 
 <style>
-
+* {background: #fff; }
 </style>
