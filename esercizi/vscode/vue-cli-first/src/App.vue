@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Title from './components/Title.vue'   // da errore ma funziona ??
+import Title from './components/Title.vue'
 
 export default {
   name: 'App',
@@ -22,6 +22,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 </style>
