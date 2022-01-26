@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Title from './components/Title.vue'   // da errore ma funziona
+import Title from './components/Title.vue'   // da errore ma funziona ??
 
 export default {
   name: 'App',
