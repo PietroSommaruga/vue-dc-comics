@@ -100,9 +100,11 @@ ul {
 
     li {
         list-style: none;
-        padding: 40px 15px;
+        padding: 0 15px;
         font-size: 10px;
         cursor: pointer;
+        height: 100px;
+        line-height: 100px;
 
         &:hover {
             border-bottom: 3px solid rgb(35, 111, 226);
