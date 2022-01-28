@@ -2,6 +2,7 @@
   <div id="app">
     <header-box/>
     <jumbotron/>
+    <Main/>
     <blue-bar/>
     <Footer/>
     <Social-Footer/>
@@ -11,6 +12,7 @@
 <script>
 import HeaderBox from './components/HeaderBox.vue'
 import Jumbotron from './components/Jumbotron.vue'
+import Main from './components/Main.vue'
 import BlueBar from './components/BlueBar.vue'
 import Footer from './components/Footer.vue'
 import SocialFooter from './components/SocialFooter.vue'
@@ -20,9 +22,10 @@ export default {
   components: {
     HeaderBox,
     Jumbotron,
+    Main,
     BlueBar,
     Footer,
-    SocialFooter
+    SocialFooter,
   }
 }
 </script>

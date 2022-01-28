@@ -54,6 +54,8 @@ body {
     img {
         width: 20px;
         padding: 0 6px;
+        cursor: pointer;
+
     }
 }
 

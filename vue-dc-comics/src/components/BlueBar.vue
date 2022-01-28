@@ -37,7 +37,6 @@ export default {
 
 <style lang="scss" scope>
 .blue {
-    margin-top: 20px;
     width: 100%;
     height: 100px;
     background: rgb(35, 111, 226);
@@ -48,7 +47,7 @@ export default {
         height: 100%;
         display: flex;
         justify-content: space-around;
-        margin: 0 200px;
+        margin: 0 100px;
     
         .blue-box {
             margin: 10px;
@@ -60,6 +59,7 @@ export default {
                 height: 30px;
             }
             span {
+                width: 100px;
                 padding: 10px;
             }
         }

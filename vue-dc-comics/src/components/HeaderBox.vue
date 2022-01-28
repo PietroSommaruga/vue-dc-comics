@@ -6,16 +6,7 @@
 
       <nav>
           <ul>
-              <li>CHARACTERS</li>
-              <li>COMICS</li>
-              <li>MOVIES</li>
-              <li>TV</li>
-              <li>GAMES</li>
-              <li>COLLECTIBLES</li>
-              <li>VIDEOS</li>
-              <li>FANS</li>
-              <li>NEWS</li>
-              <li>SHOP</li>
+              <li v-for="nav in header" :key="nav.id">{{nav.label}}</li>
           </ul>
       </nav>
     </header>
@@ -23,6 +14,61 @@
 
 <script>
 export default {
+    data() {
+        return {
+            header:[
+                {
+                    id: '1',
+                    label: 'CHARACTERS',
+                },
+
+                {
+                    id: '2',
+                    label: 'COMICS',
+                },
+
+                {
+                    id: '3',
+                    label: 'MOVIES',
+                },
+
+                {
+                    id: '4',
+                    label: 'TV',
+                },
+
+                {
+                    id: '5',
+                    label: 'GAMES',
+                },
+
+                {
+                    id: '6',
+                    label: 'COLLECTIBLES',
+                },
+
+                {
+                    id: '7',
+                    label: 'VIDEOS',
+                },
+
+                {
+                    id: '8',
+                    label: 'FANS',
+                },
+
+                {
+                    id: '9',
+                    label: 'NEWS',
+                },
+
+                {
+                    id: '10',
+                    label: 'SHOP',
+                },
+            ]
+        }
+    }
     
 }
 </script>
@@ -59,7 +105,7 @@ ul {
         cursor: pointer;
 
         &:hover {
-            border-bottom: 2px solid rgb(35, 111, 226);
+            border-bottom: 3px solid rgb(35, 111, 226);
             color: rgb(35, 111, 226);
         }
     }
