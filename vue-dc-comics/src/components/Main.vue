@@ -1,13 +1,16 @@
 <template>
     <main>
+        <strong class="btn current-series">CURRENT SERIES</strong>
         <div class="card-container">
             
                 <!-- <div class="card" v-for="card in main" :key="card.id">{{card.label}}</div> -->
                 <div class="card" v-for="(pasta, index) in paste" :key="index">
                     <img :src="pasta.thumb" alt="">
                     <span>{{pasta.series}}</span>
-                </div>
-            
+                </div> 
+        </div>
+        <div class="learn-more">
+            <strong class="btn ">LEARN MORE</strong>
         </div>
     </main>
 </template>
@@ -36,11 +39,9 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 50px 0;
+    padding: 10px 0;
     
 }
-
-
 
 .card {
     width: 150px;
@@ -51,5 +52,16 @@ main {
         width: 100%;
         height: 180px;
     }
+}
+
+.learn-more {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.btn {
+    background: rgb(35, 111, 226);
+    padding: 5px 20px;
 }
 </style>
