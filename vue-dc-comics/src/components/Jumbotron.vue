@@ -13,7 +13,7 @@ export default {
 <style lang="scss" scope>
 .jumbotron {
     margin: 0 auto;
-    width: 100%;
+    width: 1200px;
     height: 300px;
     background: url('../assets/jumbotron.jpg');
     background-position-x: center;

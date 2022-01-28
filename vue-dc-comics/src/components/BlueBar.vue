@@ -37,7 +37,8 @@ export default {
 
 <style lang="scss" scope>
 .blue {
-    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
     height: 100px;
     background: rgb(35, 111, 226);
     color: #fff;

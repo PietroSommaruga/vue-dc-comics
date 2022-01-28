@@ -23,11 +23,12 @@ export default {
 <style lang="scss" scope>
 
 body {
-    margin: 0 auto;
+    
     color: #fff;
 }
 .container {
-    width: 100%;
+    margin: 0 auto;
+    width: 1200px;
     height: 100px;
     background: black;
     display: flex;
